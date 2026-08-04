@@ -2,6 +2,24 @@
 
 A React web application built with Skyscanner's Backpack design system for selecting flight dates.
 
+## 📸 Screenshots
+
+### Desktop View
+![Desktop View](./docs/images/desktop-view.png)
+*Flight Schedule application on desktop showing full calendar layout*
+
+### Mobile View
+![Mobile View](./docs/images/mobile-view.png)
+*Responsive mobile layout with optimized spacing*
+
+### Calendar Interaction
+![Calendar Interaction](./docs/images/calendar-interaction.png)
+*Date selection functionality with Backpack calendar component*
+
+### Continue Button Action
+![Button Action](./docs/images/button-action.png)
+*Continue button feedback when date is selected*
+
 ## 🚀 Features
 
 - **Flight Schedule Interface**: Clean, professional header with Backpack styling
@@ -72,6 +90,10 @@ The application includes comprehensive tests:
 - ✅ "Continue" button is present and functional
 - ✅ Calendar component is rendered with navigation
 
+### Test Coverage Screenshot
+![Test Results](./docs/images/test-results.png)
+*Jest test suite results showing all tests passing*
+
 Run tests with:
 ```bash
 npm test
@@ -86,6 +108,15 @@ src/
 ├── App.test.js     # Jest tests
 ├── setupTests.js   # Test configuration
 └── index.js        # React entry point
+
+docs/
+└── images/         # Documentation screenshots
+    ├── desktop-view.png           # 🖼️ [ADD SCREENSHOT HERE]
+    ├── mobile-view.png            # 🖼️ [ADD SCREENSHOT HERE] 
+    ├── calendar-interaction.png   # 🖼️ [ADD SCREENSHOT HERE]
+    ├── button-action.png          # 🖼️ [ADD SCREENSHOT HERE]
+    ├── test-results.png           # 🖼️ [ADD SCREENSHOT HERE]
+    └── README.md                  # Image documentation
 ```
 
 ## 🎨 Components Used
@@ -129,6 +160,34 @@ SCSS with Backpack mixins:
 - [Skyscanner Backpack Documentation](https://www.skyscanner.design/)
 - [Backpack GitHub Repository](https://github.com/Skyscanner/backpack)
 - [Create React App Documentation](https://create-react-app.dev/)
+
+## 📸 Adding Screenshots
+
+To add screenshots to this documentation:
+
+1. **Create Screenshots**: Follow the guidelines in [`docs/images/README.md`](./docs/images/README.md)
+2. **Add Images**: Place your screenshots in the `docs/images/` folder
+3. **Required Images**:
+   - `desktop-view.png` - Full desktop application view
+   - `mobile-view.png` - Responsive mobile layout  
+   - `calendar-interaction.png` - Calendar date selection
+   - `button-action.png` - Continue button interaction
+   - `test-results.png` - Jest test results
+
+4. **Image Specifications**:
+   - Format: PNG (recommended) or JPG
+   - Desktop: 1920x1080 or similar
+   - Mobile: 375x812 or similar
+   - High quality, web-optimized
+
+5. **Commit Images**:
+   ```bash
+   git add docs/images/
+   git commit -m "Add application screenshots"
+   git push origin main
+   ```
+
+The images will automatically display in the GitHub repository!
 
 ## 🏆 Job Simulation
 
