@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00C2FF&center=true&vCenter=true&width=800&lines=Skyscanner+Backpack+Flight+Scheduler;Built+with+React.js;Powered+by+the+Backpack+Design+System;Front-End+Software+Engineering+Project" alt="Typing SVG" />
+</div>
+
+
+
 # Skyscanner Backpack Flight Scheduler
 
 <div align="center">
