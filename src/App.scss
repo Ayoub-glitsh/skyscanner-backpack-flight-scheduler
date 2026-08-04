@@ -39,6 +39,25 @@
     margin-bottom: $bpk-spacing-sm;
   }
 
+  &__calendar-container {
+    margin: $bpk-spacing-xl 0;
+    display: flex;
+    justify-content: center;
+    
+    // Responsive behavior for smaller screens
+    @include bpk-breakpoint-mobile {
+      margin: $bpk-spacing-lg 0;
+    }
+  }
+
+  &__button-container {
+    margin-top: $bpk-spacing-xl;
+    
+    @include bpk-breakpoint-mobile {
+      margin-top: $bpk-spacing-lg;
+    }
+  }
+
   &__text {
     margin-bottom: $bpk-spacing-sm;
   }
